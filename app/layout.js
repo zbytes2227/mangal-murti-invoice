@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar/>
-        <div className="md:pl-10 md:ml-36" style={{ marginLeft: '38vh'}}>
+        <div className="md:pl-10 md:ml-40">
         {children}
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js" defer  />
